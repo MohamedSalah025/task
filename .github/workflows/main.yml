@@ -19,11 +19,11 @@ jobs:
 
 
       - name: "building docker image"
-        run: docker build -t ${{ secrets.DOCKER_NAME }}/mohmedsalah .
+        run: docker build -t ${{ secrets.DOCKER_NAME }}/mohamedsalah .
 
 
       - name: "pushing to docker hub"
-        run: docker push ${{ secrets.DOCKER_NAME }}/mohmedsalah
+        run: docker push ${{ secrets.DOCKER_NAME }}/mohamedsalah
 
 
       
