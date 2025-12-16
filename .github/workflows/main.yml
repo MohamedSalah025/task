@@ -19,7 +19,7 @@ jobs:
 
 
       - name: "building docker image"
-        run: docker build -t ${{ secrets.DOCKER_NAME }}/mohammedsalah D:\task\app
+        run: docker build -t ${{ secrets.DOCKER_NAME }}/mohammedsalah D:\task\app/Dockerfile .
 
 
       - name: "pushing to docker hub"
