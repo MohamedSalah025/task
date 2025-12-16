@@ -1,0 +1,5 @@
+FROM gcc
+WORKDIR /application
+COPY mhmd.cpp .
+RUN g++ -o myapp mohamed.cpp
+CMD ["./myapp"]
